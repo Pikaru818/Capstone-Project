@@ -1,0 +1,68 @@
+Thanks for downloading my model compiler! Using it, I created files that can run models on Classification,
+Regression and Clustering along with another file to Analyze and Pre-Process the data itself.
+
+In this example I use the Diamonds Dataset found here: https://www.kaggle.com/datasets/shivam2503/diamonds
+
+
+A WORD OF CAUTION!!!!!!
+
+This dataset has been fine tuned so running the entire thing at once will work HOWEVER should you desire to
+use this code on a different dataset, it will require you to Step by Step go through it once you get to the
+beginning of the Classification
+
+
+
+
+In here I simply explain the libraries necessary to run the project(if you dont have them installed already)
+along with other tidbits of potentially useful information and some things this model cant do.
+
+I have left notes inside the files themselves so if you feel the need to skip this there shouldnt be too many
+issues
+
+First a list of libraries necessary to run the files:
+1. numpy
+2. pandas
+3. matplotlib
+4. sklearn
+5. seaborn
+6. scipy
+
+If you dont have one(or more) of the libraries installed, just do "pip install library_name_here"
+
+
+Should you require a quick visual, feel free to just add a line saying df2 anywhere past the Analyzer portion
+to get a quick visual of the dataset or df to get the original dataset, but in case you have questions on
+what the columns actually mean(for example I'm still not sure what F Coloring even means) please go to the 
+link near the beginning as they give an brief description of what they mean.
+
+
+Some things you could improve with this dataset are:
+
+1. I am honestly not the greatest with loops so I generally avoid them although it could be added in places
+such as with the graphs
+
+2. If you One Hot Encode the data, you can use a Keras ANN to get potentially greater results(though sklearn
+did ok) or if you have a way to use a Keras ANN with label encoded data that could work too
+
+3. While I do not know of a way currently, there more than likely is a more optimum way to grab the
+GridSearch results and actually place them into the models, making the step a lot less tedious and possibly
+allow to run the dataset in one go rather than bite-size pieces
+
+Some quick tidbits of information:
+
+1. There are certain parts of this dataset that take SIGNIFICANTLY LONGER than the others, make sure you have
+some time set aside for your computer to run the code for a little while
+
+2. I am 80% certain you only require around 4GB of RAM to run this properly on a dataset of this size or similar
+(37758 rows × 10 columns) but do keep in mind it may require more as time goes on
+
+
+
+
+
+
+
+
+
+
+
